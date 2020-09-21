@@ -94,7 +94,7 @@ def args(sub_parser: _SubParsersAction):
         help="Set configuration file path: Default = 'config.yaml'")
     sub_parser.add_argument(
         '--data', dest='data',
-        default='C:\\Users\Mahdi\Documents\\tiny-imagenet\\tiny-imagenet-200', type=str,
+        default=r"D:\datasets", type=str,
         help="Set data directory path: Default = '.adas-data'")
     sub_parser.add_argument(
         '--output', dest='output',
